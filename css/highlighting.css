@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik',
+        sans-serif;
+    font-weight: 400;
+}
+.clear-fix::after , .clear-fix::before{
+    display: block;
+    clear: both;
+    content: "";
+}
+.grid_box{
+    background-color: #fff;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2,550px);
+    justify-content: center;
+    align-content: center;
+    grid-column-gap: 10px;
+
+}
+.row-1{
+    grid-row:1/span 2;
+    margin: 0;
+}
+.row-1 .Hightlighting{
+    min-width:550px;
+    height: 300px;
+}
+.row-1 .Hightlighting__content{
+    padding: 32px;
+}
+ .Hightlighting__content .text_box--text-1{
+    font-size: 16px;
+    font-weight: 600;
+    color:#e23e1d;
+    text-transform: uppercase;
+}
+ .Hightlighting__content .text_box--text-2{
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+ .Hightlighting__content .text_box--text-3{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5e6169;
+    margin-top: 16px;
+}
+.row-2 .Hightlighting__content .text_box--text-3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #5e6169;
+    margin-top: 16px;
+}
+ .Hightlighting__content .text_box--text-4{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #e23e1d;
+    margin-top: 16px;
+}
+ .Hightlighting__content .text_box--text-4 span{
+    
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878a;
+    text-decoration: line-through;
+}
+.row-2{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  
+}
+.row-2 .Hightlighting__content {
+    padding: 32px;
+}
+.col{
+    background-color: #F0F2F9;
+    color: #000;
+}
+.row-2 .col{
+    min-width: 145px;
+    min-height: 145px;
+    background-color: #F0F2F9;
+}
+.btn_box{
+    margin-top: 16px;
+}
+.btn_box .outline-btn {
+    background-color: transparent;
+    border:2px solid #e23e1d;
+    padding: 8px 12px;
+    border-radius: 16px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #e23e1d;
+    font-weight: 600;
+}

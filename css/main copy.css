@@ -1,0 +1,496 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik',
+        sans-serif;
+    font-weight: 400;
+}
+
+.header {
+    width: 100%;
+}
+
+.contact-container {
+
+    width: 100%;
+    background-color: #F5F5F5;
+    height: 40px;
+    text-transform: uppercase;
+}
+
+.contact-contents {
+    margin: 0px 40px;
+}
+
+.contact--left-child {
+    display: inline-block;
+    margin-top: 8px;
+    float: left;
+}
+
+.contact--left-child .say {
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: middle;
+    padding-right: 8px;
+}
+
+.contact--left-child .say span {
+    color: #E23E1D;
+}
+
+.contact--left-child .callus {
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.contact--left-child .callus span {
+    color: #E23E1D;
+}
+
+.contact--right-child {
+    margin-top: 8px;
+    display: inline-block;
+    font-size: 12px;
+    float: right;
+
+}
+
+.currency {
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-block;
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+
+.currency select {
+    border: none;
+    background-color: transparent;
+}
+
+.language select {
+    border: none;
+    background-color: transparent;
+}
+
+.language {
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-block;
+    border-right: 1px solid black;
+    padding: 0px 20px;
+}
+
+.flag {
+    width: 16px;
+}
+
+.us {
+    background-image: url('../assets/flag/us.svg');
+    background-position: center;
+}
+
+.social_link {
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0px 0px 0px 20px;
+}
+
+.fab {
+    font-size: 16px;
+}
+
+.social_link a {
+    margin: 0px 10px;
+}
+
+.social_link a:last-child {
+    margin: 0px 0px 0px 10px;
+}
+
+.nav_container {
+    width: 100%;
+}
+
+.navbar {
+    margin: 0px 40px;
+    padding: 20px 0px;
+}
+
+.navbar-brand {
+    display: inline-block;
+    float: left;
+    width: 150px;
+}
+
+.navbar-brand img {
+    width: 100%;
+}
+
+.navbar-items {
+    margin-left: 80px;
+    display: inline-block;
+}
+
+.navbar-items ul {
+    text-decoration: none;
+
+}
+
+.navbar-items ul li {
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    margin: 0px 10px;
+}
+
+.navbar-items ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    transition: all 0.3s ease-in;
+}
+
+.navbar-items ul li a:hover {
+    color: #E23E1D;
+    font-weight: 400;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #E23E1D;
+}
+
+.active {
+    color: #E23E1D !important;
+    font-weight: 600;
+}
+
+.navbar-log-or-reg {
+    display: inline-block;
+    float: right;
+}
+
+.navbar-log-or-reg a {
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.smartmarket_row {
+    display: grid;
+    grid-template-rows: 1140px;
+    grid-template-columns: 250px 1fr;
+    grid-column-gap: 20px;
+}
+
+.smartmarket_col {
+    float: left;
+}
+
+.col1 {
+
+    height: auto;
+    margin-left: 40px;
+
+}
+
+.col1 .categories {
+    display: block;
+}
+
+.col1 .categories .categorie {
+    list-style: none;
+    padding: 4px 4px;
+    transition: all 0.3s ease-in;
+
+}
+
+.col1 .categories .categorie_link {
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.categorie:hover{
+    background-color: #E23E1D;
+    
+}
+.categorie:hover .categorie_link{
+    color: #fff;  
+    padding: 5px;
+    transition: all 0.3s ease-in;
+}
+
+.col2 {
+    margin-right: 40px;
+}
+
+/* search box */
+.searchBox_container {
+    width: 100%;
+}
+
+.searchbox {
+    float: left;
+    height: 100%;
+    background-color: red;
+}
+
+.searchbox-content {
+    font-size: 16px;
+    color: #000;
+    border: 1px solid #9fa0a3;
+    background-color: #FFFFFF;
+    /* padding: 10px 0px; */
+    border: 1px solid #EFEFEF;
+
+}
+
+
+#itemcategories {
+    width: 180px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 20px;
+}
+
+.main_searchbox {
+    width: 300px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 0px 20px;
+    margin-left: 10px;
+    border-left: 1px solid #000;
+}
+
+.main_searchbox-btn {
+    border: none;
+    outline: none;
+    width: 150px;
+    background-color: #E23E1D;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.orderInfo {
+    display: inline-block;
+    float: right;
+
+}
+
+.ordershipping {
+    display: inline-block;
+    padding: 10px 0px;
+    font-size: 12px;
+    margin-right: 40px;
+
+}
+
+.cart_truck {
+    display: inline;
+}
+
+.orderTracikng {
+    display: inline;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.likemostitem {
+    display: inline-block;
+}
+
+.love_icon {
+    display: inline-block;
+    z-index: 1;
+}
+
+
+.love_icon_container .counter {
+    position: relative;
+    top: -8px;
+    left: -10px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #e23e1d;
+    z-index: -1;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+
+}
+.selectedcart{
+    display: inline-block;
+}
+.shopping_bag {
+    display: inline-block;
+    z-index: 1;
+}
+.shopping_bag_icon_container{
+    display: inline-block;
+}
+
+.shopping_bag_icon_container .counter {
+    position: relative;
+    top: -8px;
+    left: -10px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #e23e1d;
+    z-index: -1;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+
+}
+.shopping_bag_icon_container .total_price{
+   display: inline-block;
+
+}
+.shopping_bag_icon_container .total_price p{
+   display: inline-block;
+   font-size:12px;
+   font-weight: 600;
+}
+
+
+
+/* Highlighting Features */
+
+
+.clear-fix::after,
+.clear-fix::before {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.grid_box {
+    margin-top: 60px;
+    background-color: #fff;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-content: center;
+    grid-column-gap: 10px;
+
+}
+
+.row-1 {
+    grid-row: 1/span 2;
+    margin: 0;
+}
+
+.row-1 .Hightlighting {
+    min-width: 550px;
+    height: 300px;
+    background-image: url('../assets/benzer-shirts-blog-cover_1.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.row-1 .Hightlighting__content {
+    padding: 32px;
+}
+
+.Hightlighting__content .text_box--text-1 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #e23e1d;
+    text-transform: uppercase;
+}
+
+.Hightlighting__content .text_box--text-2 {
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+
+.Hightlighting__content .text_box--text-3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #5e6169;
+    margin-top: 16px;
+}
+
+.row-2 .Hightlighting__content .text_box--text-3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #5e6169;
+    margin-top: 16px;
+}
+
+.Hightlighting__content .text_box--text-4 {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #e23e1d;
+    margin-top: 16px;
+}
+
+.Hightlighting__content .text_box--text-4 span {
+
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878a;
+    text-decoration: line-through;
+}
+.Hightlighting_img {
+    width: 100%;
+}
+
+.row-2 {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+
+}
+
+.row-2 .Hightlighting__content {
+    padding: 32px;
+}
+
+.col {
+    background-color: #F0F2F9;
+    color: #000;
+}
+
+.row-2 .col {
+    min-width: 145px;
+    min-height: 145px;
+    background-color: #F0F2F9;
+}
+
+.btn_box {
+    margin-top: 16px;
+}
+
+.btn_box .outline-btn {
+    background-color: transparent;
+    border: 2px solid #e23e1d;
+    padding: 8px 12px;
+    border-radius: 16px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #e23e1d;
+    font-weight: 600;
+}

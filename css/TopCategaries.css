@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik',
+    sans-serif;
+    font-weight: 400;
+}
+.item{
+    height: 190px;
+    background-color: #f1f3fa;
+}
+.item h4{
+    text-align: center;
+    width: 200px;
+    font-size: 14px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    bottom: 10px;
+
+}
+.top_categories_title{
+    font-size:18px;
+    
+}
+.divider{
+    width: 100px;
+    height: 2px;
+    border-bottom: 5px solid #e23e1d;
+}
+.top_categories_content{
+    padding-top: 10px;
+    border-top:1px solid #b6b8be;
+}
